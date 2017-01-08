@@ -4,9 +4,9 @@
 
     <title>Guessing Game</title>
 
-    <link type="text/css" href="style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 
-    <link type="text/css" href="bootstrap.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
@@ -28,8 +28,8 @@
 
         <div id="menu-btns">
           <button id="submit" class="btn btn-success">GUESS</button>
-          <button class="btn btn-warning">HINT</button>
-          <button class="btn btn-danger">RESET</button>
+          <button id="hint" class="btn btn-warning">HINT</button>
+          <button id="reset" class="btn btn-danger">RESET</button>
         </div>
 
         <div id="guesses">
@@ -49,16 +49,23 @@
     <div id="footer" class="center">
       <div class="row">
         <div class="col-xs-4">
-          <img src="images/fa-logo@2x.png">
+          <a href="https://www.fullstackacademy.com/" target="_blank">
+            <img src="css/images/fa-logo@2x.png">
+          </a>
         </div>
         <div class="col-xs-4">
           <p>Created by <a href="https://avarona.github.io">Alejandro Varona</a></p>
         </div>
         <div class="col-xs-4" style="padding: 8px">
-          <img src="images/grace_hopper_academy.png">
+          <a href="https://www.gracehopper.com/" target="_blank">
+            <img src="css/images/grace_hopper_academy.png">
+          </a>
         </div>
       </div>
     </div>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/guessingGame.js"></script>
 
   </body>
 </html>
